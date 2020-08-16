@@ -8,8 +8,7 @@ pip install git+http://github.com/manojap/pexelsbot.git
 
 from pexelsbot import pexels
 
-pexels.search().filter_by_tag('travel')
-pexels.search().filter_by_tag('women')
+pexels.search('travel').download()
 
 ```` 
 ### Not working ?
@@ -18,7 +17,7 @@ If the above steps don't make it for just clone the repo use it or use a lite ve
 git clone http://github.com/manojap/pexelsbot.git
 pip install -r requirements.txt
 ```
-### pip and unsplashbot
+### pip and pexelsbot
  Do you know , can directly install a working version of this package from PYPI using
  
  ```python
