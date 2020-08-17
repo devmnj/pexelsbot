@@ -1,15 +1,16 @@
 import setuptools
 import os
 
-from os import path
-this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+
+def read(f_name):
+    return open(os.path.join(os.path.dirname(__file__), f_name)).read()
+
+long_description = read('README.md')
 
 
 setuptools.setup(
-    name="pexlsbotx",  # Replace with your own username
-    version="1.1.1",
+    name="pexlsbot",  # Replace with your own username
+    version="1.0.1",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="pexels bot",
