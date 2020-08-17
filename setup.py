@@ -8,7 +8,7 @@ with open("readme.md", "r") as fh:
 
 
 setuptools.setup(
-    name="pexlsbot",  # Replace with your own username
+    name="pexlsbot-ap",  # Replace with your own username
     version="1.0.1",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
