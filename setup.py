@@ -8,12 +8,12 @@ with open("readme.md", "r") as fh:
 
 
 setuptools.setup(
-    name="pexlsbot-ap",  # Replace with your own username
+    name="pexls_graber",  # Replace with your own username
     version="1.0.1",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="pexels bot",
-    long_description="A selenium bots for automate stock free image downloading from pexels.com",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/manojap/pexelsbot",
     packages=setuptools.find_packages(),
