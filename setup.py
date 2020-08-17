@@ -5,7 +5,7 @@ import os
 def read(f_name):
     return open(os.path.join(os.path.dirname(__file__), f_name)).read()
 
-long_description = read('README.md')
+long_description = read('readme.md')
 
 
 setuptools.setup(
