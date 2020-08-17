@@ -2,12 +2,15 @@ import setuptools
 import os
 
 
-with open("readme.md", "r") as fh:
-    long_description = fh.read()
+def read(f_name):
+    return open(os.path.join(os.path.dirname(__file__), f_name)).read()
+
+
+long_description = read('readme.md')
 
 setuptools.setup(
-    name="pexelsbot",  # Replace with your own username
-    version="0.0.1",
+    name="pexlsbot",  # Replace with your own username
+    version="1.0.1",
     author="Manoj A.P",
     author_email="manojap@outlook.com",
     description="pexels bot",
@@ -16,7 +19,7 @@ setuptools.setup(
     url="https://github.com/manojap/pexelsbot",
     packages=setuptools.find_packages(),
     install_requires=[
-        'selenium','webdriver-manager'
+        'selenium', 'webdriver-manager'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
