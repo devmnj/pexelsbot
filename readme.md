@@ -47,4 +47,5 @@ automation process begins and pop up window for file action. I recommend use Chr
 # Delaying download
 
 `Use delay` for adjust elapse time for loading downloading button in slower internet connection.
+Please report bug
 
